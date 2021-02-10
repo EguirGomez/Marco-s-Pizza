@@ -1,0 +1,64 @@
+/*----Etiquetas----*/
+.c-ga ul {
+	margin: 0 auto 0 auto !important;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+.c-ga ul>li {
+	float: none;
+	list-style: none;
+	background: none;
+	margin: 0 20px 20px 0;
+	position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.c-ga ul>li:hover {
+
+}
+.c-ga ul>li.nm {
+	margin-right: 0;
+}
+.c-ga ul>li>a {
+	color: #ffffff;
+	display: block;
+}
+.c-ga ul>li>a>p {
+	font-family:'FuturaStd-Bold';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin: 0;
+	opacity: 0;
+	border-radius: 50%;
+	padding: 69px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 22px;
+    background: rgba(14, 133, 174, 0.8);
+	transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+.c-ga ul>li.pd>a>p {
+	padding: 80px 0 !important;
+}
+.c-ga ul>li>a:hover>p {
+	opacity: 1;
+	transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+.c-ga ul>li>a>img {
+	height: 300px;
+	margin-bottom: 0;
+}
+.c-ga ul>li>a>img:hover {
+
+}
